@@ -1,0 +1,49 @@
+// Global variables, declaring colors
+:root {
+    --main-red: rgba(211,9,19);
+    --main-red-hover: #e50914;
+    --main-dark: rgba(20,20,20);
+    --main-black: #000;
+    --main-grey: rgba(153,153,153);
+    --main-white: #fff;
+}
+
+* {
+    // Get rid of padding and margin inside the box
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: var(--main-dark);
+    color: var(--main-white);
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-white);
+}
+
+// Header Section
+.header-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-image:url('../images/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+// Using :not so that we don't get double box-shadow
+.header-container:not(.btn-signIn)::after {
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    box-shadow: inset 4.4rem 3rem 12rem var(--main-black),
+    inset -4.4rem -3rem -12rem;
+}
