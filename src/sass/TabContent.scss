@@ -1,0 +1,23 @@
+.container {
+    margin:0 10%;
+}
+
+.main {
+    background: var(--main-black);
+    img {
+        width: 31.875rem;
+    }
+}
+
+.tab-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    align-items: center;
+    font-size: 2rem;
+    padding: 2.5rem;
+}
+
+.div span {
+    margin-bottom: 2rem;
+}
