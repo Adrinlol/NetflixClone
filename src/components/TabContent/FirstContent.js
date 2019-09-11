@@ -7,8 +7,8 @@ import '../../sass/TabContent.scss';
 function FirstContent() {
     return (
         <div className="main">
-        <div className="container">
-            <div className="tab-content">
+        <div className="first-container">
+            <div className="first-tab-content">
             <div>
                 <span>If you decide Netflix isn't for you - no problem. No commitmentm. Cancel anytime.</span> <br/>
                 <button className="btn btn-cancel">Try it now</button>

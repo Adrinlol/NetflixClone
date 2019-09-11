@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react';
+import '../../sass/Button.scss';
+import '../../sass/TabContent.scss';
+
 
 function ThirdContent() {
     return (

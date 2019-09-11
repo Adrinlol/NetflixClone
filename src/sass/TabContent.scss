@@ -1,4 +1,4 @@
-.container {
+.first-container {
     margin:0 10%;
 }
 
@@ -9,7 +9,7 @@
     }
 }
 
-.tab-content {
+.first-tab-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
@@ -20,4 +20,33 @@
 
 .div span {
     margin-bottom: 2rem;
+}
+
+// Second Section
+.main-second {
+    background: var(--main-black);
+}
+.second-container {
+    margin: 0 15%;
+}
+
+.second-tab-content {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem 0;
+    font-size: 2rem; 
+}
+
+.second-tab-content span {
+    grid-column: 1 / 8;
+}
+
+.tab-bottom-content {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2rem;
+    text-align: center;
+    margin-top: 2rem;
 }
