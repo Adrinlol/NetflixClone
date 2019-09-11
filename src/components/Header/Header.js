@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from '../../images/svg/logo.svg';
 import { NavLink } from 'react-router-dom';
 import '../../sass/Button.scss';
-import { MdKeyboardArrowLeft } from "react-icons/md";
+import { MdKeyboardArrowRight as Icon } from 'react-icons/md';
 
 
 class Header extends Component {
@@ -17,7 +17,8 @@ class Header extends Component {
                 <div className="header-info">
                 <h1>See what's next.</h1>
                 <h2>Watch anywhere. Cancel anytime</h2>
-                <button className="btn btn-main">try it now</button>
+                <button className="btn btn-main">try it now
+                <Icon size={40}/></button>
                 </div>
             </div>
         )
