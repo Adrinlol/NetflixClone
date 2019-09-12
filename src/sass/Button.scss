@@ -5,6 +5,7 @@
     transition: background 0.2 ease-in;
     border: none;
     outline: none;
+    text-transform: uppercase;
     text-align: center;
     box-shadow: 8px 8px 10px rgba(0,0,0,0.45);
     &:hover {
@@ -27,20 +28,24 @@
 
 .btn-main {
     display: inline-block;
-    text-transform: uppercase;
     margin: 7% 33%;
     padding: 1.5rem;
     border-radius: 0.19rem;
-    font-size: 1.6rem;
+    font-size: 1.9rem;
 }
 
 .btn-cancel {
     padding:1.2rem;
     font-size: 1.4rem;
     margin-top: 2rem;
-    text-transform: uppercase;
 }
 
 .gbrid {
     grid-column: 10/12;
+}
+
+.pog {
+    grid-column: 3/6;
+    margin-left: 5.1rem;
+    margin-right:5.1rem;
 }

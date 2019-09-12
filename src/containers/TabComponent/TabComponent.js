@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import FirstSection from "../TabSection/FirstSection";
-import SecondSection from "../TabSection/SecondSection";
-import ThirdSection from "../TabSection/ThirdSection";
-import FirstContent from "../TabContent/FirstContent";
-import SecondContent from "../TabContent/SecondContent";
-import ThirdContent from "../TabContent/ThirdContent";
+import FirstSection from '../../components/TabSection/FirstSection';
+import SecondSection from "../../components/TabSection//SecondSection";
+import ThirdSection from "../../components/TabSection//ThirdSection";
+import FirstContent from "../../components/TabContent//FirstContent";
+import SecondContent from "../../components/TabContent//SecondContent";
+import ThirdContent from "../../components/TabContent//ThirdContent";
 import "../../sass/TabSection.scss";
 
 class TabComponent extends Component {

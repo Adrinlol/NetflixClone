@@ -17,7 +17,7 @@ function SecondContent() {
           <button className="btn btn-cancel gbrid">Try it now</button>
         </div>
         {/* Tab Bottom */}
-        <div className="tab-bottom-content">
+        <div className="second-tab-bottom-content">
           <div>
             <img src={Img1} alt="" style={{ width: "18.75rem" }} />
             <h3>Watch on your TV</h3>

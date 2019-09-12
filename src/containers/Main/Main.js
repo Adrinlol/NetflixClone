@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import '../sass/App.scss';
-import Header from '../components/Header/Header';
-import TabComponent from '../components/TabComponent/TabComponent';
+import '../../sass/App.scss';
+import Header from '../../components/Header/Header';
+import TabComponent from '../TabComponent/TabComponent';
 
 class Pages extends Component {
     render() {
