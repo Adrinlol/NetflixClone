@@ -24,12 +24,16 @@ function SecondContent() {
             <p>Smart TVs, Playstation, Xbox, Chromecast, Apple TV and more.</p>
           </div>
           <div>
-            <img src={Img2} alt="" style={{ width: "18.75rem", padding:'0.625rem' }} />
+            <img
+              src={Img2}
+              alt=""
+              style={{ width: "18.75rem", padding: "0.625rem" }}
+            />
             <h3>Watch on your TV</h3>
             <p>Smart TVs, Playstation, Xbox, Chromecast, Apple TV and more.</p>
           </div>{" "}
           <div>
-          {/* Using inline since creating custom style will take more time */}
+            {/* Using inline since creating custom style will take more time */}
             <img
               src={Img3}
               alt=""
