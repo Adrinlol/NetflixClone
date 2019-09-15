@@ -51,3 +51,39 @@ ul li:hover {
         fill: var(--main-white);
     }
 }
+
+// Media for logoos
+@media (max-width:'900px') {
+    .tab-door {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+
+    .tab-devices {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .tab-price-tag {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+}
+
+// Media for tabs nav
+@media (min-width:'900px') {
+    .md-screen {
+        display: none !important;
+    }
+}
+
+@media (max-width:'900px') {
+    .lg-screen {
+        display: none;
+    }
+}
+
+.md-screen {
+    display: block;
+    margin-bottom: 0.4rem;
+}

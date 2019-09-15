@@ -9,7 +9,7 @@ class Footer extends Component {
     return (
       <div className="footer-container">
         <span style={{ marginLeft: "17%", fontSize: "1.125rem" }}>
-          Questions? Call <Link>1-877-742-1335</Link>
+          Questions? Call <Link className="text-white">1-877-742-1335</Link>
         </span>
         <div className="footer-columns">
           <ul>

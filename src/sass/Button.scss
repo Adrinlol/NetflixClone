@@ -22,8 +22,13 @@
     border-radius: 0.19rem;
     font-size: 1.2rem;
     position: absolute;
+    text-transform: capitalize;
     translate: transform(-50%, -50%);
     z-index: 1;
+    @media (max-width:'740px') {
+        margin-top: 1.25rem;
+        right: 5%;
+    }
 }
 
 .btn-main {
@@ -32,6 +37,19 @@
     padding: 1.5rem;
     border-radius: 0.19rem;
     font-size: 1.9rem;
+    @media (max-width:'1350px') {
+        margin: 0 33%;
+        font-size: 1.5rem;
+    }
+
+    @media (max-width:'1150px') {
+        margin: 0 25%;
+        font-size: 1.5rem;
+    }
+
+    @media (max-width:'960px') {
+        margin: 0 20%;
+    }
 }
 
 .btn-cancel {
@@ -41,11 +59,21 @@
 
 .gbrid {
     grid-column: 10/12;
+    @media (max-width:'900px') {
+        grid-column: 1 / -1;
+        margin-right: 30%;
+        margin-left: 30%;
+}
 }
 
 .grid {
     grid-column: 9/12;
     margin:0 8.1rem;
+    @media (max-width:'1000px') {
+        grid-column: 1 / -1;
+        margin-right: 30%;
+        margin-left: 30%;
+}
 }
 
 .margin {

@@ -9,7 +9,7 @@ function FirstContent() {
       <div className="first-container">
         <div className="first-tab-content">
           <div>
-            <span>
+            <span className="title">
               If you decide Netflix isn't for you - no problem. No commitmentm.
               Cancel anytime.
             </span>{" "}

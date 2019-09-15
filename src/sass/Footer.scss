@@ -11,10 +11,14 @@
      font-size: 0.9rem;
      overflow: auto;
      display: grid;
-     grid-template-columns: repeat(4, 1fr)
+     grid-template-columns: repeat(4, 1fr);
+     @media (max-width:'740px') {
+        grid-template-columns: repeat(2, 1fr);
+    }
+     
  }
 
- ul li {
+ .footer-columns ul li {
     color:var(--main-grey-hover);
     list-style: none;
     line-height: 2.5;

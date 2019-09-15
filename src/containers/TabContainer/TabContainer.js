@@ -31,26 +31,31 @@ class TabComponent extends Component {
               }`}
             >
               <FirstSection />
-              <p>
+              <p className="lg-screen">
                 <strong>
                   No commitments <br />
                   Cancel online at anytime
                 </strong>
               </p>
+              <br />
+              <span className="md-screen" style={{ marginTop: '0.4rem'}}>Cancel</span>
             </Tab>
             {/* Ternery operator that checks if the state is equal to the corresponding number */}
             <Tab className={`${this.state.activeTab === 1 ? "active" : null}`}>
               <SecondSection />
-              <p style={{ marginTop: "-5.3rem" }}>
+              <p className="lg-screen" style={{ marginTop: "-5.3rem" }}>
                 <strong>Watch anywhere</strong>
               </p>
+              <span className="md-screen" style={{ marginTop: '-4.1125rem'}}>Devices</span>
             </Tab>
             {/* Ternery operator that checks if the state is equal to the corresponding number */}
             <Tab className={`${this.state.activeTab === 2 ? "active" : null}`}>
               <ThirdSection />
-              <p>
+              <p className="lg-screen">
                 <strong>Pick your price</strong>
               </p>
+              <br />
+              <span className="md-screen">Price</span>
             </Tab>
           </TabList>
           {/* Tabs Content */}
