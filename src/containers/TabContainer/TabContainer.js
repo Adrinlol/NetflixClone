@@ -38,7 +38,9 @@ class TabComponent extends Component {
                 </strong>
               </p>
               <br />
-              <span className="md-screen" style={{ marginTop: '0.4rem'}}>Cancel</span>
+              <span className="md-screen" style={{ marginTop: "0.4rem" }}>
+                Cancel
+              </span>
             </Tab>
             {/* Ternery operator that checks if the state is equal to the corresponding number */}
             <Tab className={`${this.state.activeTab === 1 ? "active" : null}`}>
@@ -46,7 +48,9 @@ class TabComponent extends Component {
               <p className="lg-screen" style={{ marginTop: "-5.3rem" }}>
                 <strong>Watch anywhere</strong>
               </p>
-              <span className="md-screen" style={{ marginTop: '-4.1125rem'}}>Devices</span>
+              <span className="md-screen" style={{ marginTop: "-4.1125rem" }}>
+                Devices
+              </span>
             </Tab>
             {/* Ternery operator that checks if the state is equal to the corresponding number */}
             <Tab className={`${this.state.activeTab === 2 ? "active" : null}`}>

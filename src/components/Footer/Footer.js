@@ -9,72 +9,74 @@ class Footer extends Component {
     return (
       <div className="footer-container">
         <span style={{ marginLeft: "17%", fontSize: "1.125rem" }}>
-          Questions? Call <Link className="text-white">1-877-742-1335</Link>
+          Questions? Call 1-877-742-1335
         </span>
         <div className="footer-columns">
           <ul>
             <li>
-              <Link>FAQ</Link>
+              <Link to="/">FAQ</Link>
             </li>
             <li>
-              <Link>Ways to Watch</Link>
+              <Link to="/">Ways to Watch</Link>
             </li>
             <li>
-              <Link>Corporate Information</Link>
+              <Link to="/">Corporate Information</Link>
             </li>
             <li>
-              <Link>Netflix Originals</Link>
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <Link>Help Center</Link>
-            </li>
-            <li>
-              <Link>Jobs</Link>
-            </li>
-            <li>
-              <Link>Terms of Use</Link>
-            </li>
-            <li>
-              <Link>Contact Use</Link>
+              <Link to="/">Netflix Originals</Link>
             </li>
           </ul>
           <ul>
             <li>
-              <Link>Account</Link>
+              <Link to="/">Help Center</Link>
             </li>
             <li>
-              <Link>Redeem Gift Cards</Link>
+              <Link to="/">Jobs</Link>
             </li>
             <li>
-              <Link>Privacy</Link>
+              <Link to="/">Terms of Use</Link>
             </li>
             <li>
-              <Link>Speed Test</Link>
+              <Link to="/">Contact Use</Link>
             </li>
           </ul>
           <ul>
             <li>
-              <Link>Media Center</Link>
+              <Link to="/">Account</Link>
             </li>
             <li>
-              <Link>Buy Gift Cards</Link>
+              <Link to="/">Redeem Gift Cards</Link>
             </li>
             <li>
-              <Link>Cookie Preferences</Link>
+              <Link to="/">Privacy</Link>
             </li>
             <li>
-              <Link>Legal Notes</Link>
+              <Link to="/">Speed Test</Link>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <Link to="/">Media Center</Link>
+            </li>
+            <li>
+              <Link to="/">Buy Gift Cards</Link>
+            </li>
+            <li>
+              <Link to="/">Cookie Preferences</Link>
+            </li>
+            <li>
+              <Link to="/">Legal Notes</Link>
             </li>
           </ul>
           <div className="btn-language">
-        <Language size={20}/>
-        &nbsp;&nbsp;English&nbsp;&nbsp;
-        <Arrow/>
+            <Language size={20} />
+            &nbsp;&nbsp;English&nbsp;&nbsp;
+            <Arrow />
           </div>
         </div>
-        <span style={{ marginLeft:'17%', fontSize:'0.9rem'}}>Netflix Georgia</span>
+        <span style={{ marginLeft: "17%", fontSize: "0.9rem" }}>
+          Netflix Georgia
+        </span>
       </div>
     );
   }
