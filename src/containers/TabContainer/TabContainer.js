@@ -11,7 +11,7 @@ import "../../sass/TabSection.scss";
 class TabComponent extends Component {
   // On load active state is set to the first section
   state = {
-    activeTab: 0
+    activeTab: 1
   };
 
   render() {
