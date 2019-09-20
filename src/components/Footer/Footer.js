@@ -62,7 +62,7 @@ class Footer extends Component {
               <Link to="/">Buy Gift Cards</Link>
             </li>
             <li>
-              <Link to="/">Cookie Preferences</Link>
+              <Link to="/">Cookies</Link>
             </li>
             <li>
               <Link to="/">Legal Notes</Link>

@@ -6,7 +6,7 @@ import { MdClose as Cross } from "react-icons/md";
 
 function ThirdContent() {
   return (
-    <div clasName="third-tab-content">
+    <div className="third-tab-content">
       <div className="tab-top-content">
         <span>Choose one plan and watch everything on Netflix</span>
         <button className="btn btn-cancel grid">Try it now</button>

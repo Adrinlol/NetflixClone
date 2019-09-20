@@ -53,7 +53,7 @@ ul li:hover {
 }
 
 // Media for logoos
-@media (max-width:'900px') {
+@media only screen and (max-width:'900px') {
     .tab-door {
         width: 2.4rem;
         height: 2.4rem;
@@ -71,13 +71,13 @@ ul li:hover {
 }
 
 // Media for tabs nav
-@media (min-width:'900px') {
+@media only screen and (min-width:'900px') {
     .md-screen {
         display: none !important;
     }
 }
 
-@media (max-width:'900px') {
+@media only screen and (max-width:'900px') {
     .lg-screen {
         display: none;
     }
