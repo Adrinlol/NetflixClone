@@ -1,47 +1,46 @@
- .footer-container {
-     background: var(--main-black);
-     padding-top: 15rem;
-     padding-bottom: 3rem;
-     color:var(--main-grey-hover);
- }
+.footer-container {
+  background: var(--main-black);
+  padding-top: 15rem;
+  padding-bottom: 3rem;
+  color: var(--main-grey-hover);
+}
 
- .footer-columns {
-     width: 70%;
-     margin: 1rem auto 0;
-     font-size: 0.9rem;
-     overflow: auto;
-     display: grid;
-     grid-template-columns: repeat(4, 1fr);
-     @media only screen and  (max-width:'740px') {
-        grid-template-columns: repeat(2, 1fr);
-    }
-     
- }
+.footer-columns {
+  width: 70%;
+  margin: 1rem auto 0;
+  font-size: 0.9rem;
+  overflow: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  @media only screen and (max-width: "600px") {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
- .footer-columns ul li {
-    color:var(--main-grey-hover);
-    list-style: none;
-    line-height: 2.5;
-    :hover {
-        text-decoration: underline;
-        color:var(--main-white);
-    }
+.footer-columns ul li {
+  color: var(--main-grey-hover);
+  list-style: none;
+  line-height: 2.5;
+  :hover {
+    text-decoration: underline;
+    color: var(--main-white);
+  }
 }
 
 a {
-    color:var(--main-grey-hover);
+  color: var(--main-grey-hover);
 }
 
 .btn-language {
-    background: transparent;
-    border: 0.9px solid #333;
-    padding: 1rem;
-    width: 8rem;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin:10% 0 10% 10%;
-    cursor: pointer;
-    :hover {
-        color:var(--main-white);
-    }
+  background: transparent;
+  border: 0.9px solid #333;
+  padding: 1rem;
+  width: 8rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 10% 0 10% 10%;
+  cursor: pointer;
+  :hover {
+    color: var(--main-white);
+  }
 }

@@ -1,89 +1,89 @@
 // First Section
 .tab-door {
-    width: 2.8125rem;
-    height: 2.8125rem;
-    fill:var(--main-grey);
+  width: 2.8125rem;
+  height: 2.8125rem;
+  fill: var(--main-grey);
 }
 
 // Second Section
 .tab-devices {
-    width: 9.6875rem;
-    height: 9.6875rem;
-    fill:var(--main-grey);
+  width: 9.6875rem;
+  height: 9.6875rem;
+  fill: var(--main-grey);
 }
 
 // Third Section
 .tab-price-tag {
-    width: 4.375rem;
-    width: 4.375rem;
-    fill:var(--main-grey);
+  width: 4.375rem;
+  width: 4.375rem;
+  fill: var(--main-grey);
 }
 
 .tab-container {
-    padding-top: 1rem;
+  padding-top: 1rem;
 }
 
 .tab-navbar {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-    // Each one will take one third of a fraction
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1rem;
-    list-style: none;
-    color: var(--main-grey);
-    margin: 0 12%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  // Each one will take one third of a fraction
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  list-style: none;
+  color: var(--main-grey);
+  margin: 0 12%;
 }
 
 ul li:hover {
-    cursor: pointer;
-    color: var(--main-white);
-    svg path {
-        fill: var(--main-white);
-    }
+  cursor: pointer;
+  color: var(--main-white);
+  svg path {
+    fill: var(--main-white);
+  }
 }
 
 .active {
-    border-bottom:4px solid var(--main-red);
-    color: var(--main-white);
-    svg path {
-        fill: var(--main-white);
-    }
+  border-bottom: 4px solid var(--main-red);
+  color: var(--main-white);
+  svg path {
+    fill: var(--main-white);
+  }
 }
 
 // Media for logoos
-@media only screen and (max-width:'900px') {
-    .tab-door {
-        width: 2.4rem;
-        height: 2.4rem;
-    }
+@media only screen and (max-width: "900px") {
+  .tab-door {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
 
-    .tab-devices {
-        width: 8rem;
-        height: 8rem;
-    }
+  .tab-devices {
+    width: 8rem;
+    height: 8rem;
+  }
 
-    .tab-price-tag {
-        width: 2.4rem;
-        height: 2.4rem;
-    }
+  .tab-price-tag {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
 }
 
 // Media for tabs nav
-@media only screen and (min-width:'900px') {
-    .md-screen {
-        display: none !important;
-    }
+@media only screen and (min-width: "900px") {
+  .md-screen {
+    display: none !important;
+  }
 }
 
-@media only screen and (max-width:'900px') {
-    .lg-screen {
-        display: none;
-    }
+@media only screen and (max-width: "900px") {
+  .lg-screen {
+    display: none;
+  }
 }
 
 .md-screen {
-    display: block;
-    margin-bottom: 0.4rem;
+  display: block;
+  margin-bottom: 0.4rem;
 }
