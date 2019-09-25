@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import Img from "../../images/tab-1-pic.png";
 import "../../sass/Button.scss";
 import "../../sass/TabContent.scss";
@@ -14,7 +15,9 @@ function FirstContent() {
               Cancel anytime.
             </span>{" "}
             <br />
-            <button className="btn btn-cancel margin">Try it now</button>
+            <NavLink to="/Plan">
+              <button className="btn btn-cancel margin">Try it now</button>
+            </NavLink>
           </div>
           <img src={Img} alt="" />
         </div>

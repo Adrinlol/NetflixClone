@@ -19,10 +19,12 @@ class Header extends Component {
         <div className="header-info">
           <h1>See what's next.</h1>
           <h2>Watch anywhere. Cancel anytime</h2>
-          <button className="btn btn-main">
-            try it now
-            <Icon size={40} />
-          </button>
+          <NavLink to="/Plan">
+            <button className="btn btn-main">
+              try it now
+              <Icon size={40} />
+            </button>
+          </NavLink>
         </div>
       </div>
     );

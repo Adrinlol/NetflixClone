@@ -9,6 +9,7 @@ function ThirdContent() {
     <div className="third-tab-content">
       <div className="tab-top-content">
         <span>Choose one plan and watch everything on Netflix</span>
+
         <button className="btn btn-cancel grid">Try it now</button>
       </div>
       <div className="third-tab-bottom-content">
