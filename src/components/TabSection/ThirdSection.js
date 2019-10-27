@@ -1,6 +1,6 @@
 import React from "react";
 import { ReactComponent as Price } from "../../images/svg/tab-price.svg";
-import "../../sass/TabSection.scss";
+import "../../sass/App.scss";
 
 function ThirdSection() {
   return (

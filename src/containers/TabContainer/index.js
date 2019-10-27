@@ -6,7 +6,7 @@ import ThirdSection from "../../components/TabSection/ThirdSection";
 import FirstContent from "../../components/TabContent/FirstContent";
 import SecondContent from "../../components/TabContent/SecondContent";
 import ThirdContent from "../../components/TabContent/ThirdContent";
-import "../../sass/TabSection.scss";
+import "../../sass/App.scss";
 
 class TabComponent extends Component {
   // On load active state is set to the first section

@@ -1,8 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Img from "../../images/tab-1-pic.png";
-import "../../sass/Button.scss";
-import "../../sass/TabContent.scss";
+import "../../sass/App.scss";
 
 function FirstContent() {
   return (

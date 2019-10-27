@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import "../../sass/Footer.scss";
+import "../../sass/App.scss";
 import { MdKeyboardArrowDown as Arrow } from "react-icons/md";
 import { MdLanguage as Language } from "react-icons/md";
 

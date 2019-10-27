@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import logo from "../../images/svg/logo.svg";
 import { NavLink } from "react-router-dom";
-import "../../sass/Button.scss";
-import "../../sass/Header.scss";
 import { MdKeyboardArrowRight as Icon } from "react-icons/md";
+import "../../sass/App.scss";
 
 class Header extends Component {
   render() {

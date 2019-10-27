@@ -44,7 +44,7 @@ ul li:hover {
   }
 }
 
-.active {
+.tab-navbar .active {
   border-bottom: 4px solid var(--main-red);
   color: var(--main-white);
   svg path {

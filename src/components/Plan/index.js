@@ -1,9 +1,8 @@
 import React from "react";
 import logo from "../../images/svg/logo.svg";
 import { NavLink } from "react-router-dom";
-import "../../sass/Button.scss";
-import "../../sass/Plan.scss";
 import { MdCheck as Check } from "react-icons/md";
+import "../../sass/App.scss";
 
 function Plan() {
   return (

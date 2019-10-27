@@ -1,6 +1,6 @@
 import React from "react";
 import { ReactComponent as Devices } from "../../images/svg/tab-devices.svg";
-import "../../sass/TabSection.scss";
+import "../../sass/App.scss";
 
 function SecondSection() {
   return (

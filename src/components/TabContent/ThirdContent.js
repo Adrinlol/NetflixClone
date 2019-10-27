@@ -1,8 +1,7 @@
 import React from "react";
-import "../../sass/Button.scss";
-import "../../sass/TabContent.scss";
 import { MdCheck as Check } from "react-icons/md";
 import { MdClose as Cross } from "react-icons/md";
+import "../../sass/App.scss";
 
 function ThirdContent() {
   return (

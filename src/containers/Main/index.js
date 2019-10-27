@@ -1,8 +1,8 @@
 import React, { Component } from "react";
+import Header from "../../components/Header";
+import TabContainer from "../TabContainer";
+import Footer from "../../components/Footer";
 import "../../sass/App.scss";
-import Header from "../../components/Header/Header";
-import TabContainer from "../TabContainer/TabContainer";
-import Footer from "../../components/Footer/Footer";
 
 class Pages extends Component {
   render() {

@@ -1,8 +1,8 @@
 import React from 'react';
-import '../src/sass/App.scss';
-import Main from './containers/Main/Main';
-import Plan from './components/Plan/Plan';
+import Main from './containers/Main';
+import Plan from './components/Plan';
 import { Switch, Route } from 'react-router-dom';
+import '../src/sass/App.scss';
 
 function App() {
   return (

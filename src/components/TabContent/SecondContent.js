@@ -1,9 +1,9 @@
 import React from "react";
-import "../../sass/Button.scss";
-import "../../sass/TabContent.scss";
 import Img1 from "../../images/tab-tv.png";
 import Img2 from "../../images/tab-tablet.png";
 import Img3 from "../../images/tab-macbook.png";
+import "../../sass/App.scss";
+
 
 function SecondContent() {
   return (
